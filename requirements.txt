@@ -5,3 +5,4 @@ pydantic>=2.0.0
 python-dotenv
 jupyterlab
 anthropic>=0.3.0
+gradio
