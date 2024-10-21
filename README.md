@@ -2,8 +2,8 @@
 
 # Andi's changes to use Swarm with Groq in a Jupyter notebook:
 
-- clone the repo: git clone https://github.com/ajerni/microagent.git
-- cd into the main folder: cd microagent
+- clone the repo: `git clone https://github.com/ajerni/microagent.git`
+- cd into the main folder: `cd microagent`
 
 Then:
 
