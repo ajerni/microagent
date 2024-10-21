@@ -7,20 +7,20 @@
 
 Then:
 
-- Create a new virtual environment: python -m venv venv
+- Create a new virtual environment: `python -m venv venv`
 - Activate the virtual environment with
-    - On a Mac: source venv/bin/activate
-    - On a PC: venv\Scripts\activate
-- Run pip install -r requirements.txt
-- Create a file called .env in the project root directory and add any private API keys
-  - nano .env
+    - On a Mac: `source venv/bin/activate`
+    - On a PC: `venv\Scripts\activate`
+- Run `pip install -r requirements.txt`
+- Create a file called `.env` in the project root directory and add any private API keys
+  - `nano .env`
     - Save the file:
         - Control + O
         - Enter (to confirm save the file)
         - Control + X to exit the editor
 
 Then:
-- run the Jupyter notebook: jupyter lab
+- run the Jupyter notebook: `jupyter lab`
 
 # Microagent Framework
 
