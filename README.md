@@ -9,7 +9,7 @@ Then:
 
 - Create a new virtual environment: `python -m venv venv`
 - Activate the virtual environment with
-    - On a Mac: `source venv/bin/activate`
+    - On a Mac: `source venv/bin/activate` for deactivation use: `deactivate`
     - On a PC: `venv\Scripts\activate`
 - Run `pip install -r requirements.txt`
 - Create a file called `.env` in the project root directory and add any private API keys
@@ -18,6 +18,7 @@ Then:
         - Control + O
         - Enter (to confirm save the file)
         - Control + X to exit the editor
+          `GROQ_API_KEY=your_api_key`
 
 Then:
 - run the Jupyter notebook: `jupyter lab`
