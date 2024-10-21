@@ -1,5 +1,27 @@
 ![Microagent Logo](assets/microagent.png)
 
+# Andi's changes to use Swarm with Groq:
+
+- clone the repo: git clone https://github.com/ajerni/microagent.git
+- cd into the main folder: cd microagent
+
+Then:
+
+- Create a new virtual environment: python -m venv venv
+- Activate the virtual environment with
+    - On a Mac: source venv/bin/activate
+    - On a PC: venv\Scripts\activate
+- Run pip install -r requirements.txt
+- Create a file called .env in the project root directory and add any private API keys
+  - nano .env
+    - Save the file:
+        - Control + O
+        - Enter (to confirm save the file)
+        - Control + X to exit the editor
+
+Then:
+- run the Jupyter notebook: jupyter lab
+
 # Microagent Framework
 
 Microagent is a lightweight framework for orchestrating multi-agent systems, inspired by and forked from OpenAI's Swarm project.
